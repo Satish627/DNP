@@ -1,0 +1,14 @@
+[
+  {
+    "JobTitle": null,
+    "Id": 1,
+    "FirstName": "Satish",
+    "LastName": "Gurung",
+    "HairColor": "Black",
+    "EyeColor": "Black",
+    "Age": 20,
+    "Weight": 70,
+    "Height": 173,
+    "Sex": "Male"
+  }
+]

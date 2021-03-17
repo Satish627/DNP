@@ -1,0 +1,109 @@
+@page "/ViewAdults"
+@using Family_Management.Data.AdultsData
+@using global::Models
+@using Models
+
+@inject IAdults IAdults
+
+<h3>Search for an Adult</h3>
+
+<p>Filter by User Id : <input type="number" @oninput="@((arg)=>FilterByUserId(arg))" style="width: 50px"/></p>
+
+
+@if (AdultsToShow == null)
+{
+    <p>
+        <em>Loading ...</em>
+    </p>
+}else if (!AdultsToShow.Any())
+{
+    <p>
+        <em>No user found...</em>
+    </p>
+    }
+else
+{
+    <table class="table">
+        <thead>
+        <tr>
+            <th> ID</th>
+            <th>FirstName</th>
+            <th>LastName</th>
+            <th>Haircolor</th>
+            <th>Eyecolor</th>
+            <th>Age</th>
+            <th>Weight</th>
+            <th>Height</th>
+            <th>Sex</th>
+                
+        </tr>
+        </thead>
+        <tbody>
+        @foreach (var item in AdultsToShow)
+        {
+            <tr>
+                <td>
+                    @item.Id
+                </td>
+                <td>@item.FirstName</td>
+                <td>@item.LastName</td>
+                <td>@item.HairColor</td>
+                <td>@item.EyeColor</td>
+                <td>@item.Age</td>
+                <td>@item.Weight</td>
+                <td>@item.Height</td>
+                <td>@item.Sex</td>
+               
+            </tr>
+        }
+        </tbody>
+    </table>
+}
+
+@code {
+    private IList<Adult> allAdults;
+    private IList<Adult> AdultsToShow;
+
+    private int? filterById;
+
+    private void FilterByUserId(ChangeEventArgs changeEventArgs)
+    {
+        int? filterbyId = null;
+        try
+        {
+            filterbyId = int.Parse(changeEventArgs.Value.ToString());
+        }
+        catch (Exception e)
+        {
+        }
+        if (filterbyId != null)
+        {
+            AdultsToShow = allAdults.Where(t => t.Id == filterbyId).ToList();
+        }
+        else
+        {
+            AdultsToShow = allAdults;
+        }
+    }
+
+    protected override async Task OnInitializedAsync()
+    {
+        allAdults = IAdults.GetAdults();
+        AdultsToShow = allAdults;
+    }
+
+    /* private void RemoveTodo(int todoId)
+    {
+        Todo todoToRemove = allTodos.First(t => t.TodoId == todoId);
+        TodoData.RemoveTodo(todoId);
+        allTodos.Remove(todoToRemove);
+        todosToShow.Remove(todoToRemove);
+    }
+
+    private void Edit(int id)
+    {
+        NavMgr.NavigateTo($"Edit/{id}");
+    }
+    */
+
+}
