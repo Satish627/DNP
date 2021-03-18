@@ -3,12 +3,24 @@
     "JobTitle": null,
     "Id": 1,
     "FirstName": "Satish",
-    "LastName": "Gurung",
+    "LastName": "sir",
     "HairColor": "Black",
     "EyeColor": "Black",
     "Age": 20,
     "Weight": 70,
     "Height": 173,
     "Sex": "Male"
+  },
+  {
+    "JobTitle": null,
+    "Id": 2,
+    "FirstName": "ritika\n",
+    "LastName": "gurung",
+    "HairColor": "black",
+    "EyeColor": "black",
+    "Age": 20,
+    "Weight": 99,
+    "Height": 100,
+    "Sex": "Female\n"
   }
 ]

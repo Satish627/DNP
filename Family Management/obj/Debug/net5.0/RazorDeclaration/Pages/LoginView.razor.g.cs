@@ -112,7 +112,7 @@ using Family_Management.Authentication;
             ((CustomAuthenticationStateProvider) AuthenticationStateProvider).ValidateLogin(username, password);
             username = "";
             password = "";
-            NavigationManager.NavigateTo("/");
+            NavigationManager.NavigateTo("/ViewAdults");
         }
         catch (Exception e)
         {

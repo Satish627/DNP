@@ -97,7 +97,7 @@ using LoginComponent;
         }
         #pragma warning restore 1998
 #nullable restore
-#line 23 "/Users/satish/RiderProjects/DNP/Family Management/Shared/MainLayout.razor"
+#line 24 "/Users/satish/RiderProjects/DNP/Family Management/Shared/MainLayout.razor"
  
     [CascadingParameter] 
     protected Task<AuthenticationState> AuthStat { get; set; }
@@ -105,7 +105,7 @@ using LoginComponent;
     protected async override Task OnInitializedAsync() {
         base.OnInitialized();
         var user = (await AuthStat).User; if(!user.Identity.IsAuthenticated) {
-            NavigationManager.NavigateTo($"/LoginView");
+            NavigationManager.NavigateTo($"/");
     // NavigationManager.NavigateTo($"/Login?returnUrl={Uri.EscapeDataString(NavigationManager.Uri)}");
         } }
 

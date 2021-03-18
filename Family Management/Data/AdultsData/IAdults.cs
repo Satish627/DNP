@@ -10,6 +10,10 @@ namespace Family_Management.Data.AdultsData
             void AddAdult(Adult adult);
 
             IList<Adult> GetAdults();
-        
+
+            Adult getAdult(int Id);
+
+            void Update(Adult adult);
+
     }
 }

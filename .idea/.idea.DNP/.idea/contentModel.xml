@@ -1,0 +1,850 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="$USER_HOME$/Library/Caches/JetBrains/Rider2020.3/extResources" t="IncludeRecursive" />
+    <e p="$USER_HOME$/Library/Caches/JetBrains/Rider2020.3/resharper-host/local/Transient/Rider/v203/SolutionCaches/_DNP.-1550044139.00" t="ExcludeRecursive" />
+    <e p="$PROJECT_DIR$" t="IncludeFlat">
+      <e p="AdvancedTodo" t="IncludeRecursive">
+        <e p="_Imports.razor" t="Include" />
+        <e p="AdvancedTodo.csproj" t="IncludeRecursive" />
+        <e p="App.razor" t="Include" />
+        <e p="appsettings.Development.json" t="Include" />
+        <e p="appsettings.json" t="Include" />
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="Data" t="Include">
+          <e p="ITodosData.cs" t="Include" />
+          <e p="TodoJSONData.cs" t="Include" />
+        </e>
+        <e p="Models" t="Include">
+          <e p="Todo.cs" t="Include" />
+        </e>
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="net5.0" t="Include">
+              <e p="AdvancedTodo.AssemblyInfo.cs" t="Include" />
+              <e p="AdvancedTodo.RazorAssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="Pages" t="Include">
+          <e p="_Host.cshtml" t="Include" />
+          <e p="AddToDo.razor" t="Include" />
+          <e p="Edit.razor" t="Include" />
+          <e p="Error.cshtml" t="Include" />
+          <e p="Error.cshtml.cs" t="Include" />
+          <e p="Index.razor" t="Include" />
+          <e p="Todos.razor" t="Include" />
+        </e>
+        <e p="Program.cs" t="Include" />
+        <e p="Properties" t="Include">
+          <e p="launchSettings.json" t="Include" />
+        </e>
+        <e p="Shared" t="Include">
+          <e p="MainLayout.razor" t="Include" />
+          <e p="MainLayout.razor.css" t="Include" />
+          <e p="NavMenu.razor" t="Include" />
+          <e p="NavMenu.razor.css" t="Include" />
+          <e p="SurveyPrompt.razor" t="Include" />
+        </e>
+        <e p="Startup.cs" t="Include" />
+        <e p="todos.json" t="Include" />
+        <e p="wwwroot" t="Include">
+          <e p="css" t="Include">
+            <e p="bootstrap" t="Include">
+              <e p="bootstrap.min.css" t="Include" />
+              <e p="bootstrap.min.css.map" t="Include" />
+            </e>
+            <e p="open-iconic" t="Include">
+              <e p="font" t="Include">
+                <e p="css" t="Include">
+                  <e p="open-iconic-bootstrap.min.css" t="Include" />
+                </e>
+                <e p="fonts" t="Include">
+                  <e p="open-iconic.eot" t="Include" />
+                  <e p="open-iconic.otf" t="Include" />
+                  <e p="open-iconic.svg" t="Include" />
+                  <e p="open-iconic.ttf" t="Include" />
+                  <e p="open-iconic.woff" t="Include" />
+                </e>
+              </e>
+              <e p="FONT-LICENSE" t="Include" />
+              <e p="ICON-LICENSE" t="Include" />
+              <e p="README.md" t="Include" />
+            </e>
+            <e p="site.css" t="Include" />
+          </e>
+          <e p="favicon.ico" t="Include" />
+        </e>
+      </e>
+      <e p="Assignment 1" t="Include" />
+      <e p="Assignment1" t="Include" />
+      <e p="ChatClient" t="IncludeRecursive">
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="ChatClient.csproj" t="IncludeRecursive" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="net5.0" t="Include">
+              <e p="ChatClient.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="Program.cs" t="Include" />
+      </e>
+      <e p="ChatServer" t="IncludeRecursive">
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="ChatServer.csproj" t="IncludeRecursive" />
+        <e p="clientHandler.cs" t="Include" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="net5.0" t="Include">
+              <e p="ChatServer.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="Program.cs" t="Include" />
+        <e p="serverHandler.cs" t="Include" />
+      </e>
+      <e p="DNP.sln" t="IncludeFlat" />
+      <e p="EchoClientSide" t="IncludeRecursive">
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="EchoClientSide.csproj" t="IncludeRecursive" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="net5.0" t="Include">
+              <e p="EchoClientSide.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="Program.cs" t="Include" />
+      </e>
+      <e p="EchoServer" t="IncludeRecursive">
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="EchoServer.csproj" t="IncludeRecursive" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="net5.0" t="Include">
+              <e p="EchoServer.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="Program.cs" t="Include" />
+        <e p="serverSide.cs" t="Include" />
+      </e>
+      <e p="Ex1" t="IncludeRecursive">
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="Ex1.csproj" t="IncludeRecursive" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="net5.0" t="Include">
+              <e p="Ex1.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="Program.cs" t="Include" />
+      </e>
+      <e p="Ex1 Polymorphism" t="IncludeRecursive">
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="Company.cs" t="Include" />
+        <e p="Employee.cs" t="Include" />
+        <e p="Ex1 Polymorphism.csproj" t="IncludeRecursive" />
+        <e p="FullTimeEmployee.cs" t="Include" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="net5.0" t="Include">
+              <e p="Ex1 Polymorphism.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="PartTimeEmployee.cs" t="Include" />
+        <e p="Program.cs" t="Include" />
+      </e>
+      <e p="Ex10 Big_Diff" t="IncludeRecursive">
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="Ex10 Big_Diff.csproj" t="IncludeRecursive" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="net5.0" t="Include">
+              <e p="Ex10 Big_Diff.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="Program.cs" t="Include" />
+      </e>
+      <e p="Ex11" t="IncludeRecursive">
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="Ex11.csproj" t="IncludeRecursive" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="net5.0" t="Include">
+              <e p="Ex11.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="Program.cs" t="Include" />
+      </e>
+      <e p="Ex2_setup" t="IncludeRecursive">
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="Ex2_setup.csproj" t="IncludeRecursive" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="net5.0" t="Include">
+              <e p="Ex2_setup.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="Program.cs" t="Include" />
+      </e>
+      <e p="Ex3" t="IncludeRecursive">
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="Ex3.csproj" t="IncludeRecursive" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="net5.0" t="Include">
+              <e p="Ex3.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="Program.cs" t="Include" />
+      </e>
+      <e p="Ex4" t="IncludeRecursive">
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="Ex4.csproj" t="IncludeRecursive" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="net5.0" t="Include">
+              <e p="Ex4.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="Program.cs" t="Include" />
+      </e>
+      <e p="Ex4 DoctorsWaitingRoom" t="IncludeRecursive">
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="Ex4 DoctorsWaitingRoom.csproj" t="IncludeRecursive" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="net5.0" t="Include">
+              <e p="Ex4 DoctorsWaitingRoom.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="Patient.cs" t="Include" />
+        <e p="Program.cs" t="Include" />
+        <e p="WaitingRoom.cs" t="Include" />
+      </e>
+      <e p="Ex5" t="IncludeRecursive">
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="Calculator.cs" t="Include" />
+        <e p="Ex5.csproj" t="IncludeRecursive" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="net5.0" t="Include">
+              <e p="Ex5.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="Program.cs" t="Include" />
+      </e>
+      <e p="Ex5 Car " t="IncludeRecursive">
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="Car.cs" t="Include" />
+        <e p="Ex5 Car .csproj" t="IncludeRecursive" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="net5.0" t="Include">
+              <e p="Ex5 Car .AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="Program.cs" t="Include" />
+      </e>
+      <e p="Ex6" t="IncludeRecursive">
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="Calculator.cs" t="Include" />
+        <e p="Ex6.csproj" t="IncludeRecursive" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="net5.0" t="Include">
+              <e p="Ex6.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="Program.cs" t="Include" />
+      </e>
+      <e p="Ex6 Bird Watchers" t="IncludeRecursive">
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="Bird.cs" t="Include" />
+        <e p="BirdWatcher.cs" t="Include" />
+        <e p="DeafBirdWatcher.cs" t="Include" />
+        <e p="Ex6 Bird Watchers.csproj" t="IncludeRecursive" />
+        <e p="FancyBirdWatcher.cs" t="Include" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="net5.0" t="Include">
+              <e p="Ex6 Bird Watchers.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="Program.cs" t="Include" />
+      </e>
+      <e p="Ex7" t="IncludeRecursive">
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="Ex7.csproj" t="IncludeRecursive" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="net5.0" t="Include">
+              <e p="Ex7.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="Program.cs" t="Include" />
+      </e>
+      <e p="Ex8" t="IncludeRecursive">
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="Ex8.csproj" t="IncludeRecursive" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="net5.0" t="Include">
+              <e p="Ex8.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="Program.cs" t="Include" />
+      </e>
+      <e p="Ex9 Substring" t="IncludeRecursive">
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="Ex9 Substring.csproj" t="IncludeRecursive" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="net5.0" t="Include">
+              <e p="Ex9 Substring.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="Program.cs" t="Include" />
+      </e>
+      <e p="Family Management" t="IncludeRecursive">
+        <e p="_Imports.razor" t="Include" />
+        <e p="adult.json" t="Include" />
+        <e p="App.razor" t="Include" />
+        <e p="appsettings.Development.json" t="Include" />
+        <e p="appsettings.json" t="Include" />
+        <e p="Authentication" t="Include">
+          <e p="CustomAuthenticationStateProvider.cs" t="Include" />
+        </e>
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="Data" t="Include">
+          <e p="AdultsData" t="Include">
+            <e p="IAdults.cs" t="Include" />
+            <e p="ManageAdults.cs" t="Include" />
+          </e>
+          <e p="UsersData" t="Include">
+            <e p="InMemoryUserService.cs" t="Include" />
+            <e p="IUserService.cs" t="Include" />
+          </e>
+        </e>
+        <e p="Family Management.csproj" t="IncludeRecursive" />
+        <e p="Models" t="Include">
+          <e p="Adult.cs" t="Include" />
+          <e p="Child.cs" t="Include" />
+          <e p="Family.cs" t="Include" />
+          <e p="Interest.cs" t="Include" />
+          <e p="Job.cs" t="Include" />
+          <e p="Person.cs" t="Include" />
+          <e p="Pet.cs" t="Include" />
+          <e p="User.cs" t="Include" />
+        </e>
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="net5.0" t="Include">
+              <e p="Family Management.AssemblyInfo.cs" t="Include" />
+              <e p="Family Management.RazorAssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="Pages" t="Include">
+          <e p="_Host.cshtml" t="Include" />
+          <e p="About.razor" t="Include" />
+          <e p="AddingAdults.razor" t="Include" />
+          <e p="EditAdult.razor" t="Include" />
+          <e p="Error.cshtml" t="Include" />
+          <e p="Error.cshtml.cs" t="Include" />
+          <e p="Index.razor" t="Include" />
+          <e p="LoginView.razor" t="Include" />
+          <e p="ViewAdults.razor" t="Include" />
+        </e>
+        <e p="Persistence" t="Include">
+          <e p="FileContext.cs" t="Include" />
+        </e>
+        <e p="Program.cs" t="Include" />
+        <e p="Properties" t="Include">
+          <e p="launchSettings.json" t="Include" />
+        </e>
+        <e p="Shared" t="Include">
+          <e p="MainLayout.razor" t="Include" />
+          <e p="MainLayout.razor.css" t="Include" />
+          <e p="NavMenu.razor" t="Include" />
+          <e p="NavMenu.razor.css" t="Include" />
+          <e p="SurveyPrompt.razor" t="Include" />
+        </e>
+        <e p="Startup.cs" t="Include" />
+        <e p="wwwroot" t="Include">
+          <e p="css" t="Include">
+            <e p="bootstrap" t="Include">
+              <e p="bootstrap.min.css" t="Include" />
+              <e p="bootstrap.min.css.map" t="Include" />
+            </e>
+            <e p="open-iconic" t="Include">
+              <e p="font" t="Include">
+                <e p="css" t="Include">
+                  <e p="open-iconic-bootstrap.min.css" t="Include" />
+                </e>
+                <e p="fonts" t="Include">
+                  <e p="open-iconic.eot" t="Include" />
+                  <e p="open-iconic.otf" t="Include" />
+                  <e p="open-iconic.svg" t="Include" />
+                  <e p="open-iconic.ttf" t="Include" />
+                  <e p="open-iconic.woff" t="Include" />
+                </e>
+              </e>
+              <e p="FONT-LICENSE" t="Include" />
+              <e p="ICON-LICENSE" t="Include" />
+              <e p="README.md" t="Include" />
+            </e>
+            <e p="site.css" t="Include" />
+          </e>
+          <e p="favicon.ico" t="Include" />
+        </e>
+      </e>
+      <e p="JSON file storgae" t="IncludeRecursive">
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="JSON file storgae.csproj" t="IncludeRecursive" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="net5.0" t="Include">
+              <e p="JSON file storgae.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="Person.cs" t="Include" />
+        <e p="PersonPersistence.cs" t="Include" />
+        <e p="Program.cs" t="Include" />
+      </e>
+      <e p="JSON Intro" t="IncludeRecursive">
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="JSON Intro.csproj" t="IncludeRecursive" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="net5.0" t="Include">
+              <e p="JSON Intro.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="Person.cs" t="Include" />
+        <e p="Program.cs" t="Include" />
+      </e>
+      <e p="loginSetup" t="IncludeRecursive">
+        <e p="_Imports.razor" t="Include" />
+        <e p="app.db" t="Include" />
+        <e p="App.razor" t="Include" />
+        <e p="appsettings.Development.json" t="Include" />
+        <e p="appsettings.json" t="Include" />
+        <e p="Areas" t="Include">
+          <e p="Identity" t="Include">
+            <e p="Pages" t="Include">
+              <e p="Account" t="Include">
+                <e p="LogOut.cshtml" t="Include" />
+              </e>
+              <e p="Shared" t="Include">
+                <e p="_LoginPartial.cshtml" t="Include" />
+              </e>
+            </e>
+            <e p="RevalidatingIdentityAuthenticationStateProvider.cs" t="Include" />
+          </e>
+        </e>
+        <e p="Authentication" t="Include">
+          <e p="CustomAuthenticationStateProvider.cs" t="Include" />
+        </e>
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="Data" t="Include">
+          <e p="ApplicationDbContext.cs" t="Include" />
+          <e p="Impl" t="Include">
+            <e p="00000000000000_CreateIdentitySchema.cs" t="Include" />
+            <e p="00000000000000_CreateIdentitySchema.Designer.cs" t="Include" />
+            <e p="ApplicationDbContextModelSnapshot.cs" t="Include" />
+            <e p="InMemoryUserService.cs" t="Include" />
+          </e>
+          <e p="IUserService.cs" t="Include" />
+          <e p="WeatherForecast.cs" t="Include" />
+          <e p="WeatherForecastService.cs" t="Include" />
+        </e>
+        <e p="loginSetup.csproj" t="IncludeRecursive" />
+        <e p="Models" t="Include">
+          <e p="User.cs" t="Include" />
+        </e>
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="net5.0" t="Include">
+              <e p="loginSetup.AssemblyInfo.cs" t="Include" />
+              <e p="loginSetup.RazorAssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="Pages" t="Include">
+          <e p="_Host.cshtml" t="Include" />
+          <e p="Counter.razor" t="Include" />
+          <e p="Error.cshtml" t="Include" />
+          <e p="Error.cshtml.cs" t="Include" />
+          <e p="FetchData.razor" t="Include" />
+          <e p="Index.razor" t="Include" />
+          <e p="Login.razor" t="Include" />
+          <e p="SecurityLevel.razor" t="Include" />
+          <e p="VIA.razor" t="Include" />
+        </e>
+        <e p="Program.cs" t="Include" />
+        <e p="Properties" t="Include">
+          <e p="launchSettings.json" t="Include" />
+        </e>
+        <e p="Shared" t="Include">
+          <e p="LoginDisplay.razor" t="Include" />
+          <e p="MainLayout.razor" t="Include" />
+          <e p="MainLayout.razor.css" t="Include" />
+          <e p="NavMenu.razor" t="Include" />
+          <e p="NavMenu.razor.css" t="Include" />
+          <e p="SurveyPrompt.razor" t="Include" />
+        </e>
+        <e p="Startup.cs" t="Include" />
+        <e p="wwwroot" t="Include">
+          <e p="css" t="Include">
+            <e p="bootstrap" t="Include">
+              <e p="bootstrap.min.css" t="Include" />
+              <e p="bootstrap.min.css.map" t="Include" />
+            </e>
+            <e p="open-iconic" t="Include">
+              <e p="font" t="Include">
+                <e p="css" t="Include">
+                  <e p="open-iconic-bootstrap.min.css" t="Include" />
+                </e>
+                <e p="fonts" t="Include">
+                  <e p="open-iconic.eot" t="Include" />
+                  <e p="open-iconic.otf" t="Include" />
+                  <e p="open-iconic.svg" t="Include" />
+                  <e p="open-iconic.ttf" t="Include" />
+                  <e p="open-iconic.woff" t="Include" />
+                </e>
+              </e>
+              <e p="FONT-LICENSE" t="Include" />
+              <e p="ICON-LICENSE" t="Include" />
+              <e p="README.md" t="Include" />
+            </e>
+            <e p="site.css" t="Include" />
+          </e>
+          <e p="favicon.ico" t="Include" />
+        </e>
+      </e>
+      <e p="ManagingFamilies" t="IncludeRecursive">
+        <e p="_Imports.razor" t="Include" />
+        <e p="adult.json" t="Include" />
+        <e p="app.db" t="Include" />
+        <e p="App.razor" t="Include" />
+        <e p="appsettings.Development.json" t="Include" />
+        <e p="appsettings.json" t="Include" />
+        <e p="Areas" t="Include">
+          <e p="Identity" t="Include">
+            <e p="Pages" t="Include">
+              <e p="Account" t="Include">
+                <e p="LogOut.cshtml" t="Include" />
+              </e>
+              <e p="Shared" t="Include">
+                <e p="_LoginPartial.cshtml" t="Include" />
+              </e>
+            </e>
+            <e p="RevalidatingIdentityAuthenticationStateProvider.cs" t="Include" />
+          </e>
+        </e>
+        <e p="Authentication" t="Include">
+          <e p="CustomAuthenticationStateProvider.cs" t="Include" />
+        </e>
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="Data" t="Include">
+          <e p="AdultsData" t="Include">
+            <e p="IAdults.cs" t="Include" />
+            <e p="ManageAdults.cs" t="Include" />
+          </e>
+          <e p="ApplicationDbContext.cs" t="Include" />
+          <e p="Migrations" t="Include">
+            <e p="00000000000000_CreateIdentitySchema.cs" t="Include" />
+            <e p="00000000000000_CreateIdentitySchema.Designer.cs" t="Include" />
+            <e p="ApplicationDbContextModelSnapshot.cs" t="Include" />
+          </e>
+          <e p="UserData" t="Include">
+            <e p="InMemoryUserService.cs" t="Include" />
+            <e p="IUserService.cs" t="Include" />
+          </e>
+        </e>
+        <e p="ManagingFamilies.csproj" t="IncludeRecursive" />
+        <e p="Models" t="Include">
+          <e p="Adult.cs" t="Include" />
+          <e p="Child.cs" t="Include" />
+          <e p="Family.cs" t="Include" />
+          <e p="Interest.cs" t="Include" />
+          <e p="Job.cs" t="Include" />
+          <e p="Person.cs" t="Include" />
+          <e p="Pet.cs" t="Include" />
+          <e p="User.cs" t="Include" />
+        </e>
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="net5.0" t="Include">
+              <e p="ManagingFamilies.AssemblyInfo.cs" t="Include" />
+              <e p="ManagingFamilies.RazorAssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="Pages" t="Include">
+          <e p="_Host.cshtml" t="Include" />
+          <e p="AddingAdults.razor" t="Include" />
+          <e p="Error.cshtml" t="Include" />
+          <e p="Error.cshtml.cs" t="Include" />
+          <e p="Index.razor" t="Include" />
+          <e p="ViewAdults.razor" t="Include" />
+        </e>
+        <e p="Persistence" t="Include">
+          <e p="FileContext.cs" t="Include" />
+        </e>
+        <e p="Program.cs" t="Include" />
+        <e p="Properties" t="Include">
+          <e p="launchSettings.json" t="Include" />
+        </e>
+        <e p="Shared" t="Include">
+          <e p="LoginDisplay.razor" t="Include" />
+          <e p="MainLayout.razor" t="Include" />
+          <e p="MainLayout.razor.css" t="Include" />
+          <e p="NavMenu.razor" t="Include" />
+          <e p="NavMenu.razor.css" t="Include" />
+          <e p="SurveyPrompt.razor" t="Include" />
+        </e>
+        <e p="Startup.cs" t="Include" />
+        <e p="wwwroot" t="Include">
+          <e p="css" t="Include">
+            <e p="bootstrap" t="Include">
+              <e p="bootstrap.min.css" t="Include" />
+              <e p="bootstrap.min.css.map" t="Include" />
+            </e>
+            <e p="open-iconic" t="Include">
+              <e p="font" t="Include">
+                <e p="css" t="Include">
+                  <e p="open-iconic-bootstrap.min.css" t="Include" />
+                </e>
+                <e p="fonts" t="Include">
+                  <e p="open-iconic.eot" t="Include" />
+                  <e p="open-iconic.otf" t="Include" />
+                  <e p="open-iconic.svg" t="Include" />
+                  <e p="open-iconic.ttf" t="Include" />
+                  <e p="open-iconic.woff" t="Include" />
+                </e>
+              </e>
+              <e p="FONT-LICENSE" t="Include" />
+              <e p="ICON-LICENSE" t="Include" />
+              <e p="README.md" t="Include" />
+            </e>
+            <e p="site.css" t="Include" />
+          </e>
+          <e p="favicon.ico" t="Include" />
+        </e>
+      </e>
+      <e p="Multithreaded client" t="IncludeRecursive">
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="Multithreaded client.csproj" t="IncludeRecursive" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="net5.0" t="Include">
+              <e p="Multithreaded client.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="Program.cs" t="Include" />
+      </e>
+      <e p="Multithreaded server" t="IncludeRecursive">
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="Multithreaded server.csproj" t="IncludeRecursive" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="net5.0" t="Include">
+              <e p="Multithreaded server.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="server.cs" t="Include" />
+        <e p="serverHandler.cs" t="Include" />
+      </e>
+      <e p="packages" t="ExcludeRecursive" />
+      <e p="Session1" t="Include" />
+      <e p="Session2" t="Include" />
+      <e p="Session3" t="Include" />
+      <e p="Session4" t="Include" />
+      <e p="Session5" t="Include" />
+      <e p="The Cake Corner" t="IncludeRecursive">
+        <e p="_Imports.razor" t="Include" />
+        <e p="App.razor" t="Include" />
+        <e p="appsettings.Development.json" t="Include" />
+        <e p="appsettings.json" t="Include" />
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="Data" t="Include">
+          <e p="IProductsService.cs" t="Include" />
+          <e p="ProductsService.cs" t="Include" />
+          <e p="WeatherForecast.cs" t="Include" />
+          <e p="WeatherForecastService.cs" t="Include" />
+        </e>
+        <e p="Models" t="Include">
+          <e p="Product.cs" t="Include" />
+        </e>
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="net5.0" t="Include">
+              <e p="The Cake Corner.AssemblyInfo.cs" t="Include" />
+              <e p="The Cake Corner.RazorAssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="Pages" t="Include">
+          <e p="_Host.cshtml" t="Include" />
+          <e p="About.razor" t="Include" />
+          <e p="Counter.razor" t="Include" />
+          <e p="Error.cshtml" t="Include" />
+          <e p="Error.cshtml.cs" t="Include" />
+          <e p="FetchData.razor" t="Include" />
+          <e p="Index.razor" t="Include" />
+          <e p="Order.razor" t="Include" />
+          <e p="Ordersuccess.razor" t="Include" />
+        </e>
+        <e p="Products.json" t="Include" />
+        <e p="Program.cs" t="Include" />
+        <e p="Properties" t="Include">
+          <e p="launchSettings.json" t="Include" />
+        </e>
+        <e p="Shared" t="Include">
+          <e p="MainLayout.razor" t="Include" />
+          <e p="MainLayout.razor.css" t="Include" />
+          <e p="NavMenu.razor" t="Include" />
+          <e p="NavMenu.razor.css" t="Include" />
+          <e p="SurveyPrompt.razor" t="Include" />
+        </e>
+        <e p="Startup.cs" t="Include" />
+        <e p="The Cake Corner.csproj" t="IncludeRecursive" />
+        <e p="wwwroot" t="Include">
+          <e p="css" t="Include">
+            <e p="bootstrap" t="Include">
+              <e p="bootstrap.min.css" t="Include" />
+              <e p="bootstrap.min.css.map" t="Include" />
+            </e>
+            <e p="open-iconic" t="Include">
+              <e p="font" t="Include">
+                <e p="css" t="Include">
+                  <e p="open-iconic-bootstrap.min.css" t="Include" />
+                </e>
+                <e p="fonts" t="Include">
+                  <e p="open-iconic.eot" t="Include" />
+                  <e p="open-iconic.otf" t="Include" />
+                  <e p="open-iconic.svg" t="Include" />
+                  <e p="open-iconic.ttf" t="Include" />
+                  <e p="open-iconic.woff" t="Include" />
+                </e>
+              </e>
+              <e p="FONT-LICENSE" t="Include" />
+              <e p="ICON-LICENSE" t="Include" />
+              <e p="README.md" t="Include" />
+            </e>
+            <e p="site.css" t="Include" />
+          </e>
+          <e p="favicon.ico" t="Include" />
+          <e p="Images" t="Include">
+            <e p="Products" t="Include">
+              <e p="bread.jpg" t="Include" />
+              <e p="carrot_cake.jpg" t="Include" />
+              <e p="chocolate_cake.jpg" t="Include" />
+              <e p="cupcakes.jpg" t="Include" />
+              <e p="lemon_tart.jpg" t="Include" />
+              <e p="pear_tart.jpg" t="Include" />
+              <e p="Thumbnails" t="Include">
+                <e p="bread.jpg" t="Include" />
+                <e p="carrot_cake.jpg" t="Include" />
+                <e p="chocolate_cake.jpg" t="Include" />
+                <e p="cupcakes.jpg" t="Include" />
+                <e p="lemon_tart.jpg" t="Include" />
+                <e p="pear_tart.jpg" t="Include" />
+              </e>
+            </e>
+          </e>
+        </e>
+      </e>
+      <e p="WebApplication" t="IncludeRecursive">
+        <e p="_Imports.razor" t="Include" />
+        <e p="App.razor" t="Include" />
+        <e p="appsettings.Development.json" t="Include" />
+        <e p="appsettings.json" t="Include" />
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="Data" t="Include">
+          <e p="WeatherForecast.cs" t="Include" />
+          <e p="WeatherForecastService.cs" t="Include" />
+        </e>
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="net5.0" t="Include">
+              <e p="WebApplication.AssemblyInfo.cs" t="Include" />
+              <e p="WebApplication.RazorAssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="Pages" t="Include">
+          <e p="_Host.cshtml" t="Include" />
+          <e p="Counter.razor" t="Include" />
+          <e p="Error.cshtml" t="Include" />
+          <e p="Error.cshtml.cs" t="Include" />
+          <e p="FetchData.razor" t="Include" />
+          <e p="Index.razor" t="Include" />
+        </e>
+        <e p="Program.cs" t="Include" />
+        <e p="Properties" t="Include">
+          <e p="launchSettings.json" t="Include" />
+        </e>
+        <e p="Shared" t="Include">
+          <e p="MainLayout.razor" t="Include" />
+          <e p="MainLayout.razor.css" t="Include" />
+          <e p="NavMenu.razor" t="Include" />
+          <e p="NavMenu.razor.css" t="Include" />
+          <e p="SurveyPrompt.razor" t="Include" />
+        </e>
+        <e p="Startup.cs" t="Include" />
+        <e p="WebApplication.csproj" t="IncludeRecursive" />
+        <e p="wwwroot" t="Include">
+          <e p="css" t="Include">
+            <e p="bootstrap" t="Include">
+              <e p="bootstrap.min.css" t="Include" />
+              <e p="bootstrap.min.css.map" t="Include" />
+            </e>
+            <e p="open-iconic" t="Include">
+              <e p="font" t="Include">
+                <e p="css" t="Include">
+                  <e p="open-iconic-bootstrap.min.css" t="Include" />
+                </e>
+                <e p="fonts" t="Include">
+                  <e p="open-iconic.eot" t="Include" />
+                  <e p="open-iconic.otf" t="Include" />
+                  <e p="open-iconic.svg" t="Include" />
+                  <e p="open-iconic.ttf" t="Include" />
+                  <e p="open-iconic.woff" t="Include" />
+                </e>
+              </e>
+              <e p="FONT-LICENSE" t="Include" />
+              <e p="ICON-LICENSE" t="Include" />
+              <e p="README.md" t="Include" />
+            </e>
+            <e p="site.css" t="Include" />
+          </e>
+          <e p="favicon.ico" t="Include" />
+        </e>
+      </e>
+    </e>
+  </component>
+</project>

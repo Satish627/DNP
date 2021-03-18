@@ -44,8 +44,8 @@ namespace Family_Management
                     a.RequireAuthenticatedUser().RequireClaim("Domain", "via.dk"));
                 options.AddPolicy("SecurityLevel4", a =>
                     a.RequireAuthenticatedUser().RequireClaim("Level", "4", "5"));
-                options.AddPolicy("MustBeTeacher", a =>
-                    a.RequireAuthenticatedUser().RequireClaim("Role", "Teacher"));
+                options.AddPolicy("MustBeAdmin", a =>
+                    a.RequireAuthenticatedUser().RequireClaim("Role", "Admin"));
                 options.AddPolicy("SecurityLevel2", a =>
                     a.RequireAuthenticatedUser().RequireAssertion(context =>
                     {

@@ -90,7 +90,7 @@ using Family_Management.Shared;
         }
         #pragma warning restore 1998
 #nullable restore
-#line 37 "/Users/satish/RiderProjects/DNP/Family Management/Shared/NavMenu.razor"
+#line 34 "/Users/satish/RiderProjects/DNP/Family Management/Shared/NavMenu.razor"
        
     private bool collapseNavMenu = true;
 

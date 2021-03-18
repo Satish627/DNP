@@ -112,12 +112,13 @@ using Models;
         }
         #pragma warning restore 1998
 #nullable restore
-#line 63 "/Users/satish/RiderProjects/DNP/Family Management/Pages/ViewAdults.razor"
+#line 68 "/Users/satish/RiderProjects/DNP/Family Management/Pages/ViewAdults.razor"
        
     private IList<Adult> allAdults;
     private IList<Adult> AdultsToShow;
 
     private int? filterById;
+    private int? filterByAge;
 
     private void FilterByUserId(ChangeEventArgs changeEventArgs)
     {
@@ -144,7 +145,7 @@ using Models;
         allAdults = IAdults.GetAdults();
         AdultsToShow = allAdults;
     }
-
+   
     /* private void RemoveTodo(int todoId)
     {
         Todo todoToRemove = allTodos.First(t => t.TodoId == todoId);
@@ -152,17 +153,18 @@ using Models;
         allTodos.Remove(todoToRemove);
         todosToShow.Remove(todoToRemove);
     }
-
+*/
     private void Edit(int id)
     {
-        NavMgr.NavigateTo($"Edit/{id}");
+        NavigationManager.NavigateTo($"Edit/{id}");
     }
-    */
+    
 
 
 #line default
 #line hidden
 #nullable disable
+        [global::Microsoft.AspNetCore.Components.InjectAttribute] private NavigationManager NavigationManager { get; set; }
         [global::Microsoft.AspNetCore.Components.InjectAttribute] private IAdults IAdults { get; set; }
     }
 }

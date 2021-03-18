@@ -35,5 +35,17 @@ namespace Family_Management.Data.AdultsData
         {
             return fileContext.Adults;
         }
+
+        public Adult getAdult(int Id)
+        {
+            return fileContext.Adults.FirstOrDefault(t => t.Id == Id);
+        }
+
+        public void Update(Adult adult)
+        {
+            Adult adu = getAdult(adult.Id);
+            adult.FirstName = adu.FirstName;
+         fileContext.SaveChanges();   
+        }
     }
     }

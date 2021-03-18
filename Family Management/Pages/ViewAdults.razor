@@ -4,10 +4,12 @@
 @using Models
 
 @inject IAdults IAdults
+@inject NavigationManager NavigationManager
 
 <h3>Search for an Adult</h3>
 
 <p>Filter by User Id : <input type="number" @oninput="@((arg)=>FilterByUserId(arg))" style="width: 50px"/></p>
+
 
 
 @if (AdultsToShow == null)
@@ -18,7 +20,7 @@
 }else if (!AdultsToShow.Any())
 {
     <p>
-        <em>No user found...</em>
+        <em>No one found...</em>
     </p>
     }
 else
@@ -35,7 +37,7 @@ else
             <th>Weight</th>
             <th>Height</th>
             <th>Sex</th>
-                
+            <th>Edit</th>
         </tr>
         </thead>
         <tbody>
@@ -53,6 +55,9 @@ else
                 <td>@item.Weight</td>
                 <td>@item.Height</td>
                 <td>@item.Sex</td>
+                <td> <button @onclick="@(() => Edit(item.Id))">
+                                            <i class="oi oi-pencil" style="color: #1b6ec2"/>
+                                        </button></td>
                
             </tr>
         }
@@ -65,6 +70,7 @@ else
     private IList<Adult> AdultsToShow;
 
     private int? filterById;
+    private int? filterByAge;
 
     private void FilterByUserId(ChangeEventArgs changeEventArgs)
     {
@@ -91,7 +97,7 @@ else
         allAdults = IAdults.GetAdults();
         AdultsToShow = allAdults;
     }
-
+   
     /* private void RemoveTodo(int todoId)
     {
         Todo todoToRemove = allTodos.First(t => t.TodoId == todoId);
@@ -99,11 +105,11 @@ else
         allTodos.Remove(todoToRemove);
         todosToShow.Remove(todoToRemove);
     }
-
+*/
     private void Edit(int id)
     {
-        NavMgr.NavigateTo($"Edit/{id}");
+        NavigationManager.NavigateTo($"Edit/{id}");
     }
-    */
+    
 
 }
