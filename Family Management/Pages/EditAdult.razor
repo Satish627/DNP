@@ -1,0 +1,66 @@
+@page "/Edit/{Id:int}"
+@attribute [Authorize (Policy="MustBeLoggedIn")]
+
+@using Family_Management.Data.AdultsData
+@using Family_Management.Data.UsersData
+@using global::Models
+
+@inject IAdults IAdults
+@inject NavigationManager NavMgr
+<h3>Edit Adult with id</h3>
+@if (AdultToEdit == null)
+{
+    <em>No Adult  found!</em>
+}
+else
+{
+    <EditForm Model="@AdultToEdit" OnValidSubmit="@Save">
+        <DataAnnotationsValidator/>
+        <ValidationSummary/>
+        <div class="form-group">
+            FirstName:<br/>
+            <InputTextArea @bind-Value="AdultToEdit.FirstName"/>
+        </div>
+        <div class="form-group">
+            LastName: <br/>
+            <InputTextArea rows="2" @bind-Value="AdultToEdit.LastName"/>
+        </div> 
+        <div class="form-group">
+            Hair color: <br/>
+            <InputTextArea rows="2" @bind-Value="AdultToEdit.HairColor"/>
+        </div> <div class="form-group">
+            Eye color: <br/>
+            <InputTextArea rows="2" @bind-Value="AdultToEdit.EyeColor"/>
+        </div> <div class="form-group">
+            Age: <br/>
+            <InputNumber rows="4" @bind-Value="AdultToEdit.Age"/>
+        </div> <div class="form-group">
+            Weight: <br/>
+            <InputNumber rows="4" @bind-Value="AdultToEdit.Weight"/>
+        </div><div class="form-group">
+            Sex: <br/>
+            <InputTextArea rows="4" @bind-Value="AdultToEdit.Sex"/>
+        </div>
+        <p class="actions">
+            <button class="btn btn-outline-dark" type="submit">Save</button>
+        </p>
+    </EditForm>
+}
+
+@code {
+    [Parameter]
+    public int Id { get; set; }
+
+    private Adult AdultToEdit;
+
+    protected override async Task OnInitializedAsync()
+    {
+        AdultToEdit = IAdults.getAdult(Id);
+    }
+
+    private void Save()
+    {
+        IAdults.Update(AdultToEdit);
+        NavMgr.NavigateTo("/ViewAdults");
+    }
+}

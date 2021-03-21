@@ -83,28 +83,35 @@ using Family_Management.Shared;
 #line hidden
 #nullable disable
 #nullable restore
-#line 2 "/Users/satish/RiderProjects/DNP/Family Management/Pages/ViewAdults.razor"
+#line 4 "/Users/satish/RiderProjects/DNP/Family Management/Pages/EditAdult.razor"
 using Family_Management.Data.AdultsData;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 3 "/Users/satish/RiderProjects/DNP/Family Management/Pages/ViewAdults.razor"
+#line 5 "/Users/satish/RiderProjects/DNP/Family Management/Pages/EditAdult.razor"
+using Family_Management.Data.UsersData;
+
+#line default
+#line hidden
+#nullable disable
+#nullable restore
+#line 6 "/Users/satish/RiderProjects/DNP/Family Management/Pages/EditAdult.razor"
 using global::Models;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 4 "/Users/satish/RiderProjects/DNP/Family Management/Pages/ViewAdults.razor"
-using Models;
+#line 2 "/Users/satish/RiderProjects/DNP/Family Management/Pages/EditAdult.razor"
+           [Authorize (Policy="MustBeLoggedIn")]
 
 #line default
 #line hidden
 #nullable disable
-    [Microsoft.AspNetCore.Components.RouteAttribute("/ViewAdults")]
-    public partial class ViewAdults : Microsoft.AspNetCore.Components.ComponentBase
+    [Microsoft.AspNetCore.Components.RouteAttribute("/Edit/{Id:int}")]
+    public partial class EditAdult : Microsoft.AspNetCore.Components.ComponentBase
     {
         #pragma warning disable 1998
         protected override void BuildRenderTree(Microsoft.AspNetCore.Components.Rendering.RenderTreeBuilder __builder)
@@ -112,58 +119,28 @@ using Models;
         }
         #pragma warning restore 1998
 #nullable restore
-#line 74 "/Users/satish/RiderProjects/DNP/Family Management/Pages/ViewAdults.razor"
+#line 50 "/Users/satish/RiderProjects/DNP/Family Management/Pages/EditAdult.razor"
        
-    private IList<Adult> allAdults;
-    private IList<Adult> AdultsToShow;
+    [Parameter]
+    public int Id { get; set; }
 
-   
-
-    private void FilterByUserId(ChangeEventArgs changeEventArgs)
-    {
-        int? filterbyId = null;
-        try
-        {
-            filterbyId = int.Parse(changeEventArgs.Value.ToString());
-        }
-        catch (Exception e)
-        {
-        }
-        if (filterbyId != null)
-        {
-            AdultsToShow = allAdults.Where(t => t.Id == filterbyId).ToList();
-        }
-        else
-        {
-            AdultsToShow = allAdults;
-        }
-    }
+    private Adult AdultToEdit;
 
     protected override async Task OnInitializedAsync()
     {
-        allAdults = IAdults.GetAdults();
-        AdultsToShow = allAdults;
-    }
-   
-     private void RemoveAdult(int AdultId)
-    {
-        Adult adultToRemove = allAdults.First(t => t.Id == AdultId);
-        // IAdults.RemoveAdult(AdultId);
-        allAdults.Remove(adultToRemove);
-        AdultsToShow.Remove(adultToRemove);
+        AdultToEdit = IAdults.getAdult(Id);
     }
 
-    private void Edit(int id)
+    private void Save()
     {
-        NavigationManager.NavigateTo($"Edit/{id}");
+        IAdults.Update(AdultToEdit);
+        NavMgr.NavigateTo("/ViewAdults");
     }
-    
-
 
 #line default
 #line hidden
 #nullable disable
-        [global::Microsoft.AspNetCore.Components.InjectAttribute] private NavigationManager NavigationManager { get; set; }
+        [global::Microsoft.AspNetCore.Components.InjectAttribute] private NavigationManager NavMgr { get; set; }
         [global::Microsoft.AspNetCore.Components.InjectAttribute] private IAdults IAdults { get; set; }
     }
 }

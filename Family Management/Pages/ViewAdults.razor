@@ -38,6 +38,7 @@ else
             <th>Height</th>
             <th>Sex</th>
             <th>Edit</th>
+            <AuthorizeView><th>Remove</th></AuthorizeView>
         </tr>
         </thead>
         <tbody>
@@ -58,7 +59,12 @@ else
                 <td> <button @onclick="@(() => Edit(item.Id))">
                                             <i class="oi oi-pencil" style="color: #1b6ec2"/>
                                         </button></td>
-               
+                <td>
+                    <AuthorizeView> <button @onclick="@(() => RemoveAdult(item.Id))">
+                        <i class="oi-oi-trash" style="color: #ff0000"/>
+                    </button>
+                    </AuthorizeView>
+                </td>
             </tr>
         }
         </tbody>
@@ -69,8 +75,7 @@ else
     private IList<Adult> allAdults;
     private IList<Adult> AdultsToShow;
 
-    private int? filterById;
-    private int? filterByAge;
+   
 
     private void FilterByUserId(ChangeEventArgs changeEventArgs)
     {
@@ -98,14 +103,14 @@ else
         AdultsToShow = allAdults;
     }
    
-    /* private void RemoveTodo(int todoId)
+     private void RemoveAdult(int AdultId)
     {
-        Todo todoToRemove = allTodos.First(t => t.TodoId == todoId);
-        TodoData.RemoveTodo(todoId);
-        allTodos.Remove(todoToRemove);
-        todosToShow.Remove(todoToRemove);
+        Adult adultToRemove = allAdults.First(t => t.Id == AdultId);
+        // IAdults.RemoveAdult(AdultId);
+        allAdults.Remove(adultToRemove);
+        AdultsToShow.Remove(adultToRemove);
     }
-*/
+
     private void Edit(int id)
     {
         NavigationManager.NavigateTo($"Edit/{id}");

@@ -42,18 +42,8 @@ namespace Family_Management
             {
                 options.AddPolicy("MustBeLoggedIn", a =>
                     a.RequireAuthenticatedUser().RequireClaim("Domain", "via.dk"));
-                options.AddPolicy("SecurityLevel4", a =>
-                    a.RequireAuthenticatedUser().RequireClaim("Level", "4", "5"));
-                options.AddPolicy("MustBeAdmin", a =>
-                    a.RequireAuthenticatedUser().RequireClaim("Role", "Admin"));
-                options.AddPolicy("SecurityLevel2", a =>
-                    a.RequireAuthenticatedUser().RequireAssertion(context =>
-                    {
-
-                        Claim levelClaim = context.User.FindFirst(claim => claim.Type.Equals("Level"));
-                        if (levelClaim == null) return false;
-                        return int.Parse(levelClaim.Value) >= 2;
-                    }));
+              
+                    
             });
         }
 
